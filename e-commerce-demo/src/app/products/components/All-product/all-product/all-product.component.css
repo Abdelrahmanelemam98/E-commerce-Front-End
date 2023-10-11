@@ -1,0 +1,27 @@
+.section-product {
+  align-items: center;
+  display: flex;
+  height: 320px;
+  background-image: url(../../../../../assets/image/blog_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.product-title {
+  color: #343434;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.nav-product {
+  margin-top: 23px;
+}
+.items {
+  color: #343434;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+}

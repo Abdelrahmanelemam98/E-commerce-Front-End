@@ -1,0 +1,31 @@
+<div class="wrapper-product">
+  <div class="container">
+    <div class="row">
+      <div class="inner-wrapper-product">
+        <ng-container *ngFor="let item of AllProducts">
+          <div class="col-md-3 col-sm-12">
+            <div class="col-md-4 col-sm-12">
+              <div class="card product" style="width: 18rem">
+                <div class="inner-product text-center">
+                  <div class="pro_thumb">
+                    <a>
+                      <img [src]="item.image" alt="" class="img-fluid" />
+                    </a>
+                  </div>
+                  <div class="product-details">
+                    <h2>
+                      <a (click)="getById(item.productCode)">{{ item.name }}</a>
+                    </h2>
+                    <span class="popular-pro-prize">{{
+                      item.price | currency
+                    }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

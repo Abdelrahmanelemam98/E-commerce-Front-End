@@ -1,0 +1,61 @@
+.pb--180 {
+  padding-top: 130px;
+}
+.bg_white {
+  background: #fff;
+}
+
+.card {
+  text-align: center;
+  border: none;
+}
+.section-title .title-line {
+  color: #303030;
+  font-size: 30px;
+  line-height: 30px;
+}
+.section-title p {
+  color: #666666;
+  font-size: 15px;
+  line-height: 26px;
+  margin: 27px auto auto;
+  width: 46%;
+}
+
+.list-product .product {
+  margin-top: 60px;
+}
+.list-product {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.product {
+  position: relative;
+  overflow: hidden;
+}
+.inner-product {
+  position: relative;
+}
+.pro_thumb a {
+  display: block;
+}
+.pro_thumb a img {
+  width: 100%;
+}
+.product-details {
+  padding-top: 27px;
+}
+.product-details h2 a {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.product-details span .popular-pro-prize {
+  color: #9c9b9b;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 11px;
+}

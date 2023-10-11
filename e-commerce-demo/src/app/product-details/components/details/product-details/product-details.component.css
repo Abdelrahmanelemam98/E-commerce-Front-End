@@ -1,0 +1,83 @@
+.details-section {
+  align-items: center;
+  display: flex;
+  height: 320px;
+  background-image: url(../../../../../assets/image/blog_banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.details-title {
+  color: #343434;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+.nav-details {
+  margin-top: 23px;
+}
+.items {
+  color: #343434;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+}
+/* details */
+.section-details {
+  margin-top: 30px;
+  background: #fff;
+}
+.product-details {
+  width: 100%;
+}
+.product-details img {
+  width: 100%;
+}
+.product-title h2 {
+  font-weight: bold;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.desc p {
+  font-weight: lighter;
+  margin: 10px 0;
+}
+.section-price {
+  margin: 20px 0;
+}
+.section-price h3 {
+  font-weight: bold;
+}
+.section-size {
+  padding: 10px;
+}
+.size-title {
+  font-size: 25px;
+  color: #343434;
+  font-weight: bold;
+}
+.size-prop {
+  display: inline-flex;
+}
+.size-prop li {
+  margin-top: 20px;
+  padding: 0 10px;
+  list-style: none;
+}
+.section-buy {
+  margin: 5rem 2rem;
+}
+.section-buy .btn {
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}

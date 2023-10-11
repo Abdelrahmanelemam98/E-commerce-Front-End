@@ -1,0 +1,40 @@
+<div class="wrapper-section">
+  <div class="container">
+    <div class="row">
+      <div class="inner-login">
+        <div class="col-md-12">
+          <div class="card-login" style="width: 20rem">
+            <div class="inner-card text-center">
+              <div class="title">
+                <h2>login</h2>
+              </div>
+              <div class="form-group">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                  <input
+                    type="text"
+                    placeholder="User Name*"
+                    formControlName="email"
+                  />
+                  <input
+                    type="password"
+                    placeholder="Password*"
+                    formControlName="password"
+                  />
+                  <div class="btn-submit">
+                    <button
+                      class="btn"
+                      type="submit"
+                      [disabled]="loginForm.invalid"
+                    >
+                      Login
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

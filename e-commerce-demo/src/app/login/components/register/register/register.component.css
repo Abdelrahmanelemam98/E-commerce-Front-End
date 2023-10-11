@@ -1,0 +1,47 @@
+.wrapper-section {
+  width: 100%;
+  background-image: url(../../../../../assets/image/5.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+.inner-register {
+  width: 100%;
+}
+.card-register {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -55%);
+}
+.inner-card .title {
+  padding: 20px;
+}
+.inner-card .title h2 {
+  text-transform: capitalize;
+  font-size: 38px;
+  font-weight: 600;
+}
+.form-group {
+  margin: 10px 0;
+}
+.form-group input {
+  margin: 8px 0;
+  width: 350px;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: transparent;
+}
+.btn-submit {
+  margin: 30px 0;
+}
+.btn-submit button {
+  border: 1px solid #333;
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+}

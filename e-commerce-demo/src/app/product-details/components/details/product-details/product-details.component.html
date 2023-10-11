@@ -1,0 +1,65 @@
+<div class="details-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="inner-details text-center">
+          <h2 class="details-title">Product Details</h2>
+          <div class="nav-details">
+            <span><a href="" class="items">Home</a></span>
+            <span>/</span>
+            <span><a href="" class="items">Product Details</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-details">
+  <div class="container">
+    <div class="section-details">
+      <div class="container">
+        <div class="row" *ngIf="details">
+          <!-- Use *ngIf to conditionally render details when available -->
+          <div class="col-lg-6 col-xl-6">
+            <div class="product-details">
+              <div class="product-img">
+                <img [src]="details.image" alt="product-img" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6">
+            <div class="product-title">
+              <h2>{{ details.name }}</h2>
+            </div>
+            <div class="desc">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                alias nihil, accusantium assumenda nobis error nemo nesciunt
+                fugiat dolorum. Molestiae omnis quidem soluta molestias possimus
+                minima perferendis unde voluptate maxime.
+              </p>
+              <!-- Use the actual property from your product data -->
+            </div>
+            <div class="section-price">
+              <h3>{{ details.price }}</h3>
+            </div>
+            <div class="section-size">
+              <h2 class="size-title">Size</h2>
+              <ul class="size-prop">
+                <li>XL</li>
+                <LI>M</LI>
+                <li>ML</li>
+                <LI>LM</LI>
+                <li>XXL</li>
+              </ul>
+            </div>
+            <div class="section-buy">
+              <button class="btn">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
